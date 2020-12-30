@@ -34,7 +34,7 @@ int main()
 	// Initialize the Atm with int cash_bin.
 
 	int cash_bin = 10000; // $10,000
-	Atm atm(bank, 10000);
+	Atm atm(bank, cash_bin);
 
 	/*
 	* function 'testController' performs an action on each call.
