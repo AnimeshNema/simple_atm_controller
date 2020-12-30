@@ -8,5 +8,12 @@ The Bank doesnt share details like PIN number but let's the ATM know if entered 
 is correct or not. 
 <br/>
 
-Build Instructions<br/>
+# Build Instructions
+	After cloning the Repository.
+  cd simple_atm_controller<br/>
+	mkdir build<br/>
+	cd build<br/>
+	cmake ..<br/>
+	make<br/>
+	./simple_atm_controller<br/>
 
