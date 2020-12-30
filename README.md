@@ -8,7 +8,8 @@ The Bank doesn't share details like PIN number but let's the ATM know if entered
 is correct or not. 
 <br/>
 
-
+You can Clone the repository using this link https://github.com/AnimeshNema/simple_atm_controller.git <br/>
+After that Build it using the intructions below.
 # Build Instructions
 	cd simple_atm_controller
 	mkdir build
