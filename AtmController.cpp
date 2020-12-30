@@ -1,3 +1,11 @@
+/*
+*
+* AtmController.cpp
+*
+* Created on Dec 26 2020
+*       Author: Animesh Nema
+*
+*/
 #include "AtmController.h"
 #include<iostream>
 
@@ -105,8 +113,6 @@ void Atm::dashboard(int option, int amount)
 			std::cout << "Invalid Response" << std::endl;
 	}
 }
-
-
 
 void Atm::testController(int card_number, int pin_number, int account_type, int option, int amount)
 {

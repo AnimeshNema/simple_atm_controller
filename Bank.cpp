@@ -1,3 +1,12 @@
+/*
+*
+* Bank.cpp
+*
+* Created on Dec 26 2020
+*       Author: Animesh Nema
+*
+*/
+
 #include<iostream>
 #include "Bank.h"
 
