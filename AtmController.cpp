@@ -40,13 +40,16 @@ int Atm::selectAccount(int account_type)
 {
 	if (m_is_valid)
 	{
-		if (account_type == 0)
+		std::map<int, int>::iterator l_it;
+		l_it = m_customer_data.find(account_type);
+
+		if (account_type == 0 && l_it != m_customer_data.end())
 		{
 			m_acc_type = account_type;
 			std::cout << "Entered SAVINGS Account" << std::endl;
 		}
 
-		else if (account_type == 1)
+		else if (account_type == 1 && l_it != m_customer_data.end())
 		{
 			m_acc_type = account_type;
 			std::cout << "CHECKING Account" << std::endl;
@@ -54,7 +57,7 @@ int Atm::selectAccount(int account_type)
 
 		else
 		{
-			std::cout << "Invalid Response. Please choose from Savings or Checking account." << std::endl;
+			std::cout << "Invalid Response. Please choose from a Valid/Existing account type." << std::endl;
 			m_acc_type = -1;
 		}
 	}
