@@ -9,11 +9,11 @@ is correct or not.
 <br/>
 
 # Build Instructions
-	After cloning the Repository.
-  cd simple_atm_controller<br/>
+	cd simple_atm_controller<br/>
 	mkdir build<br/>
 	cd build<br/>
 	cmake ..<br/>
 	make<br/>
 	./simple_atm_controller<br/>
+  
 
