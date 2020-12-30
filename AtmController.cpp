@@ -3,8 +3,8 @@
 * AtmController.cpp
 *
 * Created on Dec 26 2020
-*       Author: Animesh Nema
-*
+*       Author: Animesh Nema 
+*				anema@wpi.edu
 */
 #include "AtmController.h"
 #include<iostream>
