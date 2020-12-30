@@ -3,8 +3,8 @@
 * AtmController.h
 *
 * Created on Dec 26 2020
-*       Author: Animesh Nema
-*
+*      Author: Animesh Nema 
+*			   anema@wpi.edu
 */
 
 #pragma once
@@ -29,7 +29,7 @@ private:
 
 public:
 
-	Atm(Bank bank, int cash_bin); //Contructor
+	Atm(Bank bank, int cash_bin); //Contsructor
 	~Atm(); // Destructor
 
 	/*

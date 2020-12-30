@@ -3,7 +3,8 @@
 * Bank.h
 *
 * Created on Dec 26 2020
-*       Author: Animesh Nema
+*       Author: Animesh Nema 
+*				anema@wpi.edu
 *
 */
 
@@ -12,7 +13,7 @@
 #include<string>
 #include<map>
  
-struct AccountInformation { // struct to contain information aoout a single cutomer.
+struct AccountInformation { // struct to contain information about a single customer.
 	int s_pin_number;
 	int s_card_number;
 	std::map<int, int> s_acc_and_balance; // map that contains respective accounts and balance in them.

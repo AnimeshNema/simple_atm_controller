@@ -3,8 +3,8 @@
 * main.cpp
 *
 * Created on Dec 26 2020
-*       Author: Animesh Nema
-*
+*       Author: Animesh Nema 
+*				anema@wpi.edu
 */
 
 #include<iostream>
@@ -50,19 +50,19 @@ int main()
 	*	2 - "Withdraw Cash Amount"
 	*/
 
-	// Case I- Case should run Succesfully. Should display Balance.
+	// Case I- Case should run Successfully. Should display Balance.
 	atm.testController(12345678, 2323, 0, 0, 0);
 	std::cout << "-------------------------------------------- " << std::endl;
 	std::cout << " " << std::endl;
 
-	// Case II- Case should run Succesfully. Should deposit $250 in Savings 
+	// Case II- Case should run Successfully. Should deposit $250 in Savings 
 	// and show new balance.
 	atm.testController(87654321, 8765, 0, 1, 250);
 	atm.dashboard(0, 0);
 	std::cout << "-------------------------------------------- " << std::endl;
 	std::cout << " " << std::endl;
 
-	// Case III- Case should run Succesfully. Should deposit $500 in Checking
+	// Case III- Case should run Successfully. Should deposit $500 in Checking
 	// and show new balance.
 	atm.testController(23817642, 6745, 1, 1, 500);
 	atm.dashboard(0, 0);
@@ -77,7 +77,7 @@ int main()
 	atm.testController(13572468, 7777, 1, 1, 10);
 	std::cout << "-------------------------------------------- " << std::endl;
 
-	// Case VI- Case should run Succesfully. Should withdraw $1200 from Savings
+	// Case VI- Case should run Successfully. Should withdraw $1200 from Savings
 	// and show new balance
 	atm.testController(13572468, 7777, 0, 2, 1200);
 	atm.dashboard(0, 0);
